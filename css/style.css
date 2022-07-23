@@ -96,7 +96,7 @@ body {
   }
 }
 .order-btn {
-  background-color: var(--main-color);
+  /* background-color: var(--main-color); */
   color: black;
   padding-inline: 20px;
   padding-block: 10px;
@@ -126,7 +126,31 @@ body {
   }
 }
 .float-order-btn a {
-  background-color: var(--main-color) !important;
+  background-color: var(--main-color);
+  animation: scale infinite linear 1.5s;
+}
+
+@keyframes scale {
+  0% {
+    background-color: crimson;
+    color: white;
+    transform: rotate(2deg) scale(1.2);
+  }
+  40% {
+    background-color: var(--main-color);
+    color: black;
+    transform: rotate(0deg);
+  }
+  80% {
+    background-color: crimson;
+    color: white;
+    transform: rotate(2deg) scale(1.2);
+  }
+  100% {
+    background-color: var(--main-color);
+    color: black;
+    transform: rotate(2deg) scale(1.2);
+  }
 }
 
 .float {
@@ -227,7 +251,9 @@ nav .container ul li a {
 nav .container ul li:hover a {
   color: var(--main-color);
 }
-
+nav .container .order-btn {
+  background-color: var(--main-color);
+}
 /* End Nav */
 /* Start Header */
 
@@ -250,7 +276,6 @@ header .container .order-btn {
   justify-content: center;
 }
 header .container .order-btn {
-  background-color: var(--primary-color);
   margin-inline: auto;
   display: flex;
 }
@@ -451,6 +476,7 @@ footer .container h4 {
 footer .container h4 a img {
   inline-size: 20px;
 }
+
 /* End Footer */
 
 /*---------------------END STYLE BRANCH PRODUCTS INDEX---------------------------*/
