@@ -431,7 +431,7 @@ header .container .image img {
 /* Start Footer */
 footer {
   direction: ltr;
-  background-color: var(--bg-color);
+  background-color: white;
   padding-block: 10px;
 }
 footer .container {
