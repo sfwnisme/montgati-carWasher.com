@@ -96,7 +96,7 @@ body {
   }
 }
 .order-btn {
-  /* background-color: var(--main-color); */
+  background-color: var(--primary-color);
   color: black;
   padding-inline: 20px;
   padding-block: 10px;
