@@ -1,2 +1,2 @@
 # montgati-carwasher.com
-[https://sfwnisme.github.io/montgati-carwasher.com/](Live Demo)
+[Live Demo](https://sfwnisme.github.io/montgati-carwasher.com/)
